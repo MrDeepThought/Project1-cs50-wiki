@@ -1,0 +1,4 @@
+# DeepFake
+-----
+
+**Deepfakes** (a portmanteau of "[deep learning](https://en.wikipedia.org/wiki/Deep_learning)" and "fake") are synthetic media in which a person in an existing image or video is replaced with someone else's likeness. While the act of faking content is not new, deepfakes leverage powerful techniques from machine learning and artificial intelligence to manipulate or generate visual and audio content with a high potential to deceive. The main machine learning methods used to create deepfakes are based on deep learning and involve training generative neural network architectures, such as [autoencoders](https://en.wikipedia.org/wiki/Autoencoder) or [generative adversarial networks](https://en.wikipedia.org/wiki/Generative_adversarial_network) (GANs).
