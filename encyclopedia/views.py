@@ -48,7 +48,7 @@ def title(request, title):
         })
 
 def save_html(title):
-    htmlContent = "{% extends 'encyclopedia/layout.html' %}\n{% block title %}\n" + title + "\n{% endblock %}\n{% block nav %}\n<div><a href="+f"'{title}/Edit page'"+">Edit Page</a></div>\n{% endblock %}\n{% block body %}\n{{html|safe}}\n{% endblock %}\n"
+    htmlContent = "{% extends 'encyclopedia/layout.html' %}\n{% block title %}\n" + title + "\n{% endblock %}\n{% block nav %}\n<div><a href="+f"'{title}/Edit Page'"+">Edit Page</a></div>\n{% endblock %}\n{% block body %}\n{{html|safe}}\n{% endblock %}\n"
 
     basePath = os.getcwd()
     absPath = basePath + f"\\encyclopedia\\templates\\encyclopedia\\{title}.html"
