@@ -103,6 +103,4 @@ def random_page(request):
     content = util.get_entry(title)
     markdowner = Markdown()
     html = markdowner.convert(content)
-    return render(request, f"encyclopedia/{title}.html", {
-    "html": html
-    })
+    return HttpResponseRedirect(reverse("encyclopedia:index") + f"{title}")
